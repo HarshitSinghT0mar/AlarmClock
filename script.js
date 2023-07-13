@@ -9,7 +9,7 @@ let para = document.querySelector('.btn-container')
 let sound = document.getElementById('ring')
 
 
-//Clock
+//Digital Clock
 setInterval(() => {
   let a = new Date();
   sec.innerHTML = a.getSeconds() > 9 ? a.getSeconds() : '0' + a.getSeconds();
